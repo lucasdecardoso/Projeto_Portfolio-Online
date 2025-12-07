@@ -1,0 +1,31 @@
+body {
+    background-color: #82D400;
+    margin: 0;
+}
+div {
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration-color: white;
+    color: white;
+    font-size: 30px;
+    font-style:bold;
+    text-decoration:underline; /* adiciona uma linha abaixo do texto*/
+}
+
+nav ul {
+    list-style: none; /* Tira as bolinhas da lista */
+    text-align: center; /* Centraliza os links na tela */
+    padding: 0;
+    margin: 50px;    
+}
+
+nav ul li {
+    display: inline-block; /* coloca os blocos "li" em linha"*/
+    margin: 0 15px;
+}
+
